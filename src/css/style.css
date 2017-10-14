@@ -86,6 +86,13 @@ body {
 #hello button:hover {
   color: #199ef7; }
 
+#hello h3 {
+  color: #fff; }
+
+#hello .silhouette {
+  height: 200px;
+  width: auto; }
+
 #places {
   background: #fff;
   color: #199ef7; }
