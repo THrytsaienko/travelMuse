@@ -1,0 +1,119 @@
+$color-blue: #1a6797;
+$color-primary: #199ef7;
+body {
+    overflow-x: hidden;
+}
+
+#navbarNav {
+    .bg-blue {
+        background: $color-blue;
+        border-left: 0;
+    }
+    .fa {
+        color: #fff;
+    }
+    .active {
+        border-bottom: 2px $color-blue solid;
+    }
+}
+
+#header {
+    color: $color-primary;
+    .fa {
+        color: $color-primary;
+    }
+    p {
+        font-size: 13px;
+    }
+}
+
+#carousel {
+    position: relative;
+    .carousel-caption {
+        top: 45%;
+    }
+    button {
+        color: #fff;
+        border-width: 3px;
+    }
+    button:hover {
+        color: $color-primary;
+    }
+}
+
+.dark-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#partners {
+    font-size: 1.6rem;
+    .logo {
+        background: #fff;
+        color: $color-primary;
+    }
+    button {
+        border-radius: 0 !important;
+        border-width: 3px;
+    }
+}
+
+#gallery {
+    .container-hover {
+        position: relative;
+    }
+    .photo-hover {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .text-hover {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
+    .container-hover:hover .text-hover {
+        opacity: 0.7;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+        }
+    }
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); // background-color: rgba(23, 157, 246, 0.8);
+    }
+}
+
+#hello {
+    button {
+        border-radius: 0 !important;
+        border-width: 3px;
+    }
+    button:hover {
+        color: $color-primary;
+    }
+}
+
+#places {
+    background: #fff;
+    color: $color-primary;
+    .d-flex img {
+        width: 70px;
+    }
+}
