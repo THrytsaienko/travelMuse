@@ -124,3 +124,15 @@ body {
         width: 70px;
     }
 }
+
+#main-footer {
+    i {
+        background: #fff;
+        color: $color-primary;
+        padding-right: auto;
+        padding-left: auto;
+    }
+    .nav-link, p {
+        color: #705b42;
+    }
+}

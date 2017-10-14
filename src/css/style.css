@@ -98,3 +98,12 @@ body {
   color: #199ef7; }
   #places .d-flex img {
     width: 70px; }
+
+#main-footer i {
+  background: #fff;
+  color: #199ef7;
+  padding-right: auto;
+  padding-left: auto; }
+
+#main-footer .nav-link, #main-footer p {
+  color: #705b42; }
