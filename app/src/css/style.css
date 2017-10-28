@@ -58,6 +58,8 @@ body {
   width: auto;
   height: 100%;
   opacity: 0;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
   transition: .5s ease;
   background-color: #008CBA; }
 
@@ -73,6 +75,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
 #hello button {
