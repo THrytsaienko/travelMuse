@@ -4,6 +4,12 @@ body {
     overflow-x: hidden;
 }
 
+nav {
+    .navbar-toggler-icon {
+        cursor: pointer;
+    }
+}
+
 #navbarNav {
     .bg-blue {
         background: $color-blue;

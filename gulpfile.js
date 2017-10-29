@@ -36,7 +36,7 @@ gulp.task('serve', ['sass'], function () {
     browserSync.init({
         server: "./app"
     });
-    gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);
+    gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', './app/src/scss/*.scss'], ['sass']);
     gulp.watch("./app/*.html").on('change', browserSync.reload);
 });
 

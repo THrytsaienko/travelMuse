@@ -1,6 +1,9 @@
 body {
   overflow-x: hidden; }
 
+nav .navbar-toggler-icon {
+  cursor: pointer; }
+
 #navbarNav .bg-blue {
   background: #1a6797;
   border-left: 0; }
